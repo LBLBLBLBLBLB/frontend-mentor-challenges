@@ -6,9 +6,7 @@ solutions for frontend mentor challenges
 
 | Challenge       | Live Link                                              | Code Link                                              | Technologies Used            |
 |-----------------|--------------------------------------------------------|--------------------------------------------------------|------------------------------|
-| Challenge 1     | [Live](https://your-live-link.com)                     | [Code](https://github.com/your-username/project-name)  | HTML, CSS, JavaScript        |
-| Challenge 2     | [Live](https://your-live-link.com)                     | [Code](https://github.com/your-username/project-name)  | HTML, CSS, React             |
-| Challenge 3     | [Live](https://your-live-link.com)                     | [Code](https://github.com/your-username/project-name)  | HTML, CSS, Vue.js            |
-| Challenge 4     | [Live](https://your-live-link.com)                     | [Code](https://github.com/your-username/project-name)  | HTML, CSS, Angular           |
+| FAQ accordion     | [Live](https://frontend-mentor-challenges-one-eta.vercel.app/)                     | [Code](https://github.com/LBLBLBLBLBLB/frontend-mentor-challenges/tree/main/faq-accordion)  | HTML, CSS, JavaScript        |
+
 
 
