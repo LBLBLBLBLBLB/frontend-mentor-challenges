@@ -1,9 +1,6 @@
 # Frontend Mentor challenges
 solutions for frontend mentor challenges
 
-## Table of Contents
-
-1. [Challenge Solutions](#challenge-solutions)
 
 ## Challenge Solutions
 
