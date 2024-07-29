@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --desaturated-dark-blue: hsl(214, 17%, 51%);
+  --grayish-blue: hsl(212, 23%, 69%);
+  --light-grayish-blue: hsl(210, 46%, 95%);
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Manrope", sans-serif;
+  max-width: 144rem;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--light-grayish-blue);
+}
+.main-content {
+  display: flex;
+  width: 73rem;
+  height: 26.4rem;
+  border-radius: 1rem;
+  background-color: white;
+  box-shadow: 8px 10px 22px -15px var(--grayish-blue);
+}
+.drawer {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  clip-path: inset(0 18% 0 0);
+}
+.general-info {
+  margin-left: -5rem;
+  padding: 2rem 4rem;
+}
+.main-txt {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--very-dark-grayish-blue);
+  margin-bottom: 2rem;
+  line-height: 1.4;
+}
+.sec-txt {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--grayish-blue);
+  margin-bottom: 3rem;
+  line-height: 1.5;
+}
+.avatar-info {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  width: 100%;
+  padding-right: 2rem;
+}
+.avatar {
+  width: 4rem;
+  border-radius: 50%;
+  margin-right: 2.4rem;
+}
+.name {
+  color: var(--very-dark-grayish-blue);
+  font-weight: 700;
+}
+.date {
+  color: var(--grayish-blue);
+}
+.share-ic {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.popup {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -100%);
+  background-color: var(--very-dark-grayish-blue);
+  padding: 10px;
+  border-radius: 5px;
+}
+.p-cont {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.p-cont p {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 1rem;
+}
+.popup::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid var(--very-dark-grayish-blue);
+}
