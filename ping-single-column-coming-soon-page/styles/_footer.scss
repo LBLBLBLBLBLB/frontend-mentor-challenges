@@ -1,0 +1,22 @@
+footer {
+  @include center-content;
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+  gap: 2rem;
+  .socials {
+    display: flex;
+    gap: 1.4rem;
+    font-size: $base_font_size;
+    color: $primary_blue;
+    .soc-icon {
+      border: 1px solid $secondary_pale_blue;
+      text-align: center;
+      border-radius: 50%;
+      padding: 0.4rem;
+    }
+  }
+  p {
+    font-size: 1.2rem;
+    color: $neutral_gray;
+  }
+}

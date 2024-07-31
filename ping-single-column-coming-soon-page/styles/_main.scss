@@ -1,0 +1,46 @@
+main {
+  @include center-content;
+  form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-family: inherit;
+    margin-bottom: 0.6rem;
+    input {
+      flex: 0 0 60%;
+      border: none;
+      border-radius: 3rem;
+      border: 1px solid $secondary_pale_blue;
+      padding: 2rem;
+      &::placeholder {
+        color: $primary_blue;
+      }
+    }
+    button {
+      flex: 0 0 37%;
+      font-size: 1.6rem;
+      border-radius: 3rem;
+      padding: 1.6rem;
+      border: none;
+      background-color: $primary_blue;
+      color: white;
+      font-weight: $mid_font_weight;
+      cursor: pointer;
+    }
+  }
+  .error-wrapper {
+    width: 100%;
+    margin-bottom: 7rem;
+    p {
+      margin-left: 1.6rem;
+      color: $secondary_light_red;
+      font-size: 1.2rem;
+      font-style: italic;
+      visibility: hidden;
+    }
+  }
+
+  .illustration {
+    max-width: 100%;
+  }
+}

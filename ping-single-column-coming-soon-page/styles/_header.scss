@@ -1,0 +1,23 @@
+header {
+  margin-bottom: 5rem;
+  margin-top: 8rem;
+  @include center-content;
+  img {
+    max-width: 100%;
+    margin-bottom: 4rem;
+  }
+  h2 {
+    font-size: $base_font_size * 2.5;
+    font-weight: $min_font_weight;
+    color: $neutral_gray;
+    margin-bottom: 1rem;
+    span {
+      color: $neutral_very_dark_blue;
+      font-weight: $max_font_weight;
+    }
+  }
+  p {
+    font-size: $base_font_size - 0.2rem;
+    color: $neutral_very_dark_blue;
+  }
+}

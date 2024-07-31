@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="content-wrapper">
+      <header>
+        <img src="images/logo.svg" alt="logo ping" />
+        <h2>We are launching <span>soon!</span></h2>
+        <p>Subscribe and get notified</p>
+      </header>
+      <main>
+        <form id="form">
+          <input type="email" id="email" placeholder="Your email address" />
+          <button type="submit" id="submit-btn">Notify Me</button>
+        </form>
+        <div class="error-wrapper">
+          <p class="error">please provide a valid email address</p>
+        </div>
+
+        <section>
+          <img
+            src="images/illustration-dashboard.png"
+            alt="illustration"
+            class="illustration"
+          />
+        </section>
+      </main>
+      <footer>
+        <div class="socials">
+          <ion-icon name="logo-facebook" class="soc-icon"></ion-icon>
+          <ion-icon name="logo-twitter" class="soc-icon"></ion-icon>
+          <ion-icon name="logo-instagram" class="soc-icon"></ion-icon>
+        </div>
+        <p>&copy; Copyright Ping. All rights reserved</p>
+      </footer>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

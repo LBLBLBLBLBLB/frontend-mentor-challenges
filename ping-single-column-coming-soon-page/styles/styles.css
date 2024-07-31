@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  margin-bottom: 5rem;
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header img {
+  max-width: 100%;
+  margin-bottom: 4rem;
+}
+header h2 {
+  font-size: 5rem;
+  font-weight: 300;
+  color: hsl(0, 0%, 59%);
+  margin-bottom: 1rem;
+}
+header h2 span {
+  color: hsl(209, 33%, 12%);
+  font-weight: 700;
+}
+header p {
+  font-size: 1.8rem;
+  color: hsl(209, 33%, 12%);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main form {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-family: inherit;
+  margin-bottom: 0.6rem;
+}
+main form input {
+  flex: 0 0 60%;
+  border: none;
+  border-radius: 3rem;
+  border: 1px solid hsl(223, 100%, 88%);
+  padding: 2rem;
+}
+main form input::-moz-placeholder {
+  color: hsl(223, 87%, 63%);
+}
+main form input::placeholder {
+  color: hsl(223, 87%, 63%);
+}
+main form button {
+  flex: 0 0 37%;
+  font-size: 1.6rem;
+  border-radius: 3rem;
+  padding: 1.6rem;
+  border: none;
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+main .error-wrapper {
+  width: 100%;
+  margin-bottom: 7rem;
+}
+main .error-wrapper p {
+  margin-left: 1.6rem;
+  color: hsl(354, 100%, 66%);
+  font-size: 1.2rem;
+  font-style: italic;
+  visibility: hidden;
+}
+main .illustration {
+  max-width: 100%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+  gap: 2rem;
+}
+footer .socials {
+  display: flex;
+  gap: 1.4rem;
+  font-size: 2rem;
+  color: hsl(223, 87%, 63%);
+}
+footer .socials .soc-icon {
+  border: 1px solid hsl(223, 100%, 88%);
+  text-align: center;
+  border-radius: 50%;
+  padding: 0.4rem;
+}
+footer p {
+  font-size: 1.2rem;
+  color: hsl(0, 0%, 59%);
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.content-wrapper {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}/*# sourceMappingURL=styles.css.map */
